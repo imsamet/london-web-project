@@ -1,0 +1,51 @@
+.button{
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  box-shadow: 4px 6px 17px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: white;
+  color: white;
+  border: none;
+}
+.primary{
+  background-color: #60204B;
+}
+.secondary{
+  background-color: #ED3833;
+}
+.tertiary{
+  background-color: #FF8B61;
+}
+.pink{
+  background-color: #BE41E8;
+}
+.purple{
+  background-color: #6A3BD1;
+}
+
+/* Outline */
+.button.outline{
+  border: 1px solid black;
+  background-color: transparent;
+}
+.outline.primary{
+  border-color: #60204B;
+  color: #60204B;
+}
+.outline.secondary{
+  border-color: #ED3833;
+  color: #ED3833;
+}
+.outline.tertiary{
+  border-color: #FF8B61;
+  color: #FF8B61;
+}
+.outline.pink{
+  border-color: #BE41E8;
+  color: #BE41E8;
+}
+.outline.purple{
+  border-color: #6A3BD1;
+  color: #6A3BD1;
+}
