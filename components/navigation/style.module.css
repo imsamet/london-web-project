@@ -1,0 +1,26 @@
+.nav{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logo{
+  position: relative;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--c-text-2);
+}

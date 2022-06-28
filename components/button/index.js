@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
-import Style from './buttton.module.css'
+import Style from './style.module.css'
 import cn from 'classnames'
-export const Button = ({secondary, color, className, children, ...props}) => {
-  return <button className={cn(secondary && Style.outline, Style[color], Style.button, className)}>
+const Button = ({secondary, color, className, children, ...props}) => {
+  return <button className={cn(secondary && Style.outline, Style[color], Style.button, className)} {...props}>
     {children}
   </button>
 }
@@ -13,3 +13,4 @@ Button.propTypes = {
 Button.defaultProps = {
   color: 'primary'
 }
+export default Button

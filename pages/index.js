@@ -1,9 +1,9 @@
-import { Button } from "../components/button";
+import { Navigation } from "../components/navigation";
 
 export default function Home() {
   return (
     <div className="container">
-      <Button>Button</Button>
+      <Navigation/>
     </div>
   )
 }

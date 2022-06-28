@@ -1,0 +1,13 @@
+export { default as Birthday } from "./Birthday";
+export { default as Experience } from "./Experience";
+export { default as Facebook } from "./Facebook";
+export { default as İnstagram } from "./İnstagram";
+export { default as Left } from "./Left";
+export { default as Linkedin } from "./Linkedin";
+export { default as Mail } from "./Mail";
+export { default as Phone } from "./Phone";
+export { default as Pin } from "./Pin";
+export { default as Right } from "./Right";
+export { default as Twitter } from "./Twitter";
+export { default as Youtube } from "./Youtube";
+export { default as Zoom } from "./Zoom";
