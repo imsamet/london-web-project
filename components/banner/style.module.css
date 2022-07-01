@@ -1,0 +1,41 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 250px;
+}
+.imgBox{
+  position: relative;
+}
+.imgBox img{
+  object-fit: cover;
+}
+.imgFilter{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(270deg, #60204B 0%, rgba(96, 32, 75, 0) 82.31%);
+}
+.contentBox{
+  background-color: var(--c-theme);
+  display: flex;
+  align-items: center;
+}
+.textBox{
+  display: inline-flex;
+  align-items: end;
+  flex-direction: column;
+}
+.textBox h2{
+  color: var(--c-white);
+  font-size: 36px;
+}
+.textBox label{
+  background: var(--c-white);
+  color: var(--c-red);
+  padding: 5px 5px;
+  line-height: 50px;
+  border-radius: 10px;
+}
+.textBox p{
+  color: var(--c-white);
+}

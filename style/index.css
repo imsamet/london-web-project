@@ -10,3 +10,6 @@ p{
   line-height: 18px;
   color: var(--c-text-2);
 }
+section{
+  margin-top: 80px;
+}

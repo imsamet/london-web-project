@@ -1,3 +1,4 @@
+import Banner from "../banner";
 import Header from "../header";
 import Navigation from "../navigation";
 const Layout = () => {
@@ -5,6 +6,7 @@ const Layout = () => {
     <>
       <Navigation/>
       <Header/>
+      <Banner/>
     </>
   )
 }
