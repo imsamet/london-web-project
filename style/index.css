@@ -1,6 +1,12 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
+}
+p{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--c-text-2);
 }

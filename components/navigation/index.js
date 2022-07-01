@@ -8,13 +8,13 @@ import Row from '../grid/row'
 import Col from '../grid/Col'
 
 
-export const Navigation = () => {
+const Navigation = () => {
   return <nav className={cn(Style.nav)}>
     <Row>
       <Col col={12}>
         <div className={Style.container}>
           <div className={Style.logo}>
-            <Image src="/img/logo.jpg" layout="fill"/>
+            <Image src="/img/logo.jpg" height={62} layout="fill"/>
           </div>
           <div className={Style.content}>
             <Link href="/">
@@ -39,3 +39,4 @@ export const Navigation = () => {
     </Row>
   </nav>
 }
+export default Navigation

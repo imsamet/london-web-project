@@ -1,3 +1,4 @@
+export { default as Banner } from "./Banner";
 export { default as Birthday } from "./Birthday";
 export { default as Experience } from "./Experience";
 export { default as Facebook } from "./Facebook";

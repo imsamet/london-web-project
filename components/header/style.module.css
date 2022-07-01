@@ -1,0 +1,26 @@
+.header{
+  min-height: 630px;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.contentBox{
+  display: grid;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+.contentBox h1{
+  max-width: 27ch;
+}
+.contentBox label{
+  font-family: 'Sansita', sans-serif;
+  color: var(--c-red);
+}
+.buttonBox{
+  display: inline-flex;
+  grid-gap: 20px;
+}
+.banner{
+  width: 100%;
+  height: auto;
+}

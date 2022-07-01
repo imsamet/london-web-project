@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "icon": "svgr public/svg -d components --icon --replace-attr-values \"#3E3E3E=currentColor=\""
+    "icon": "svgr public/svg -d components/icon --icon --replace-attr-values \"#3E3E3E=currentColor=\""
   },
   "dependencies": {
     "@svgr/cli": "^6.2.1",

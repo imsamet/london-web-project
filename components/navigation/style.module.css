@@ -1,9 +1,12 @@
 .nav{
+  position: fixed;
   width: 100vw;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--c-white);
+  z-index: 999;
 }
 .container{
   position: relative;
@@ -12,6 +15,10 @@
 }
 .logo{
   position: relative;
+}
+.logo img{
+  object-fit: contain;
+  object-position: left;
 }
 .content{
   display: flex;
