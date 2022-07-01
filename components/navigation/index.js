@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Button from '../button'
 import {Phone} from '../icon'
 import Row from '../grid/row'
-import Col from '../grid/Col'
+import Col from '../grid/col'
 
 
 const Navigation = () => {
